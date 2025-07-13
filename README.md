@@ -1,8 +1,9 @@
-<div align="center">
 ### Доработки и улучшения:
 - Добавлена обработка на сервере (+ форки)
 - Другие методы скачивания с YouTube/Twitch
 - Улучшена скорость работы
+- 
+<div align="center">
     <br/>
     <p>
         <img src="web/static/favicon.png" title="cobalt" alt="cobalt logo" width="100" />
