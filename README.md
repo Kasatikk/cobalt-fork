@@ -4,58 +4,69 @@
         <img src="web/static/favicon.png" title="cobalt" alt="cobalt logo" width="100" />
     </p>
     <p>
-        best way to save what you love
+        лучший способ сохранить то, что вам нравится
         <br/>
         <a href="https://cobalt.tools">
             cobalt.tools
         </a>
+        <br/>
+        <a href="https://github.com/imputnet/cobalt">
+            🔗 Оригинальный репозиторий
+        </a>
     </p>
     <p>
         <a href="https://discord.gg/pQPt8HBUPu">
-            💬 community discord server
+            💬 Discord-сообщество
         </a>
         <br/>
         <a href="https://x.com/justusecobalt">
-            🐦 twitter
+            🐦 Twitter
         </a>
         <a href="https://bsky.app/profile/cobalt.tools">
-            🦋 bluesky
+            🦋 Bluesky
         </a>
     </p>
     <br/>
 </div>
 
-cobalt is a media downloader that doesn't piss you off. it's friendly, efficient, and doesn't have ads, trackers, paywalls or other nonsense.
+Cobalt — это медиа-загрузчик, который вас не раздражает. Он дружелюбный, эффективный и не содержит рекламы, трекеров, платных подписок или другой ерунды.
 
-paste the link, get the file, move on. that simple, just how it should be.
+Вставьте ссылку, получите файл, продолжайте дальше. Всё просто, как и должно быть.
 
-### cobalt monorepo
-this monorepo includes source code for api, frontend, and related packages:
-- [api tree & readme](/api/)
-- [web tree & readme](/web/)
-- [packages tree](/packages/)
+### Монополия Cobalt
+Этот монорепозиторий включает исходный код для API, фронтенда и связанных пакетов:
+- [API: дерево и README](/api/)
+- [Веб-интерфейс: дерево и README](/web/)
+- [Пакеты: дерево](/packages/)
 
-it also includes documentation in the [docs tree](/docs/):
-- [how to run a cobalt instance](/docs/run-an-instance.md)
-- [how to protect a cobalt instance](/docs/protect-an-instance.md)
-- [cobalt api instance environment variables](/docs/api-env-variables.md)
-- [cobalt api documentation](/docs/api.md)
+Также включает документацию в [документации](/docs/):
+- [Как запустить экземпляр Cobalt](/docs/run-an-instance.md)
+- [Как защитить экземпляр Cobalt](/docs/protect-an-instance.md)
+- [Переменные окружения API Cobalt](/docs/api-env-variables.md)
+- [Документация API Cobalt](/docs/api.md)
 
-### ethics
-cobalt is a tool that makes downloading public content easier. it takes **zero liability**.
-the end user is responsible for what they download, how they use and distribute that content.
-cobalt never caches any content, it [works like a fancy proxy](/api/src/stream/).
+### Доработки и улучшения:
+- Добавлена обработка на сервере (+ форки)
+- Другие методы скачивания с YouTube/Twitch
+- Улучшена скорость работы
 
-cobalt is in no way a piracy tool and cannot be used as such.
-it can only download free & publicly accessible content.
-same content can be downloaded via dev tools of any modern web browser.
+### Этика
+Cobalt — это инструмент, который упрощает загрузку общедоступного контента. Он не несёт **никакой ответственности**.
+Конечный пользователь сам отвечает за то, что он скачивает, как использует и распространяет этот контент.
+Cobalt никогда не кэширует контент, он [работает как продвинутый прокси](/api/src/stream/).
 
-### contributing
-if you're considering contributing to cobalt, first of all, thank you! check the [contribution guidelines here](/CONTRIBUTING.md) before getting started, they'll help you do your best right away.
+Cobalt ни в коем случае не является инструментом пиратства и не может быть использован как таковой.
+Он может скачивать только бесплатный и общедоступный контент.
+Тот же контент можно скачать через инструменты разработчика в любом современном браузере.
 
-### thank you
-cobalt is sponsored by [royalehosting.net](https://royalehosting.net/?partner=cobalt). a part of our infrastructure is hosted on their network. we really appreciate their kindness and support!
+### Участие в разработке
+Если вы хотите поучаствовать в разработке Cobalt, прежде всего спасибо! Ознакомьтесь с [руководством по участию](/CONTRIBUTING.md) перед началом работы, оно поможет вам сразу сделать всё наилучшим образом.
 
-### licenses
-for relevant licensing information, see the [api](api/README.md) and [web](web/README.md) READMEs.
-unless specified otherwise, the remainder of this repository is licensed under [AGPL-3.0](LICENSE).
+### Благодарности
+Cobalt спонсируется [royalehosting.net](https://royalehosting.net/?partner=cobalt). Часть нашей инфраструктуры размещена в их сети. Мы очень ценим их доброту и поддержку!
+
+### Лицензии
+Соответствующая информация о лицензировании находится в файлах README для [API](api/README.md) и [веб-интерфейса](web/README.md).
+Если не указано иное, остальная часть этого репозитория лицензирована по [AGPL-3.0](LICENSE).
+
+Спасибо авторам Cobalt.
